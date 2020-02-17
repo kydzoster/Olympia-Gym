@@ -303,8 +303,71 @@
     </div>
 </div>
 
+<!-- Contact and address -->
+<section id="contact">
+    <div class="container">
+        <h1>Contact Us</h1>
+        <hr class="block-divider block-divider--white">
+        <br>
+        <div class="row row-table">
+            <div class="col-sm-12">
 
+                <div class="row justify-content-around">
+                    <div class="col-xs-12 col-sm-12 col-md-5">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h3 class="section-heading uppercase">Address</h3>
+                                <p>8 Cliftonville Avenue, Cliftonville, Thanet, CT92RP</p>
+                            </div>
+                        </div>
+                        <div id="map"></div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-7">
 
+                        <div class="col-sm-12">
+                            <div class="well well-sm">
+                                <form onsubmit="return sendMail(this);">
+                                    <div class="row mt-4 ml-2">
+                                        <div class="col-sm-8">
+                                            <div class="form-group">
+                                                <label for="name">Name</label>
+                                                <input type="text" name="name" class="form-control" id="name"
+                                                    placeholder="Enter name" required>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label for="email">Email Address</label>
+                                                <div class="input-group">
+                                                    <input type="email" name="email" class="form-control" id="email"
+                                                        placeholder="Enter email" required>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12">
+
+                                            <div class="form-group">
+                                                <label for="message">Message</label>
+                                                <textarea name="message" id="message" class="form-control" rows="9"
+                                                    cols="25" required="required"
+                                                    placeholder="Insert Text Here!"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <button type="submit" class="btn enter pull-right mb-3">Send
+                                                Message</button>
+                                        </div>
+                                    </div>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
     <!-- Bootstrap  footer-->
