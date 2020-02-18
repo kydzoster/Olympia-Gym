@@ -49,9 +49,7 @@
                                 <a class="dropdown-item text-warning" href="#gallery">Gallery</a>
                             </div>
                         </li>
-                        <li class="nav-item">
-                            <a class="link" href="bmi.html">BMI</a>
-                        </li>
+                        
                         <li class="nav-item">
                             <a class="link" href="#contact">Contact Us</a>
                         </li>
@@ -305,8 +303,15 @@
 </section>
 
 
-<!-- BMI metric system -->
-<section>
+<!-- Tab links -->
+<div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+    <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+  </div>
+  
+  <!-- Tab content -->
+  <div id="London" class="tabcontent">
+      <!-- BMI metric system -->
     <div class="container mt-5 pt-5">
         <div class="row">
           <div class="col-lg-6 mb-4 text-center align-items-center">
@@ -332,9 +337,10 @@
           </div>
         </div>
     </div>
-</section>
-<!-- BMI imperial system -->
-<section>
+  </div>
+  
+  <div id="Paris" class="tabcontent">
+      <!-- BMI imperial system -->
     <div class="container mt-5 pt-5">
         <div class="row">
           <div class="col-lg-6 mb-4 text-center align-items-center">
@@ -360,6 +366,23 @@
           </div>
         </div>
     </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+<section>
+    
+</section>
+
+<section>
+    
 </section>
 
 
@@ -438,16 +461,7 @@
                 <span>&copy; 2020 Martins Silins</span>
             </div>
             <div class="col-sm-4 footer-details">
-                <ul>
-                    <li class="icon">
-                        <a href="https://www.facebook.com/OlympiaGymMargate" target="_blank" rel="noopener noreferrer"
-                            aria-label="Facebook"><i class="fa fa-facebook"></i></a>
-                    </li>
-                    <li class="icon">
-                        <a href="https://www.instagram.com/olympiagymmargate/" target="_blank" rel="noopener noreferrer"
-                            aria-label="Instagram"><i class="fa fa-instagram"></i></a>
-                    </li>
-                </ul>
+                
             </div>
         </div>
     </footer>
@@ -471,6 +485,8 @@
     <script src="assets/js/contact.js"></script>
     <script src="/assets/js/bmi.js"></script>
     <script src="/assets/js/bmiuk.js"></script>
+    <script src="/assets/js/modal.js"></script>
+    <script src="/assets/js/tabs.js"></script>
 </body>
 
 </html>
