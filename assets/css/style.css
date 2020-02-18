@@ -173,7 +173,68 @@ section.pricing {
       opacity: 1;
     }
   }
+/**/
+/**/
+/**/
+/****************************************** Gallery */
 
+.block-divider {
+  width: 96%;
+  height: 2px;
+  border: 0;
+}
+
+.block-divider--white {
+  background-color: azure;
+}
+
+.block-divider-gallery {
+  width: 50px;
+  height: 2px;
+  border: 0;
+}
+
+.block-divider--red {
+  background-color: #e84610;
+}
+
+.block-divider--black {
+  background-color: black;
+}
+/**/
+/**/
+/**/
+/****************************************** Contact Me */
+
+.form-group {
+  color: black;
+}
+
+.form-control {
+  background-color: transparent;
+  border-color: black;
+}
+
+.form-control:hover {
+  border-color: #e84610;
+}
+
+.enter {
+  border-radius: 10px;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 100%;
+  background-color: #ffc107;
+  border: 2px solid #e84610;
+  color: black;
+}
+
+.enter:hover {
+  background: #4b4949;
+  border: 2px solid #ffc107;
+  color: black;
+  text-decoration: none;
+}
 
 
 
