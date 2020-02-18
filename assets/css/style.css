@@ -236,7 +236,10 @@ section.pricing {
   text-decoration: none;
 }
 
-
+/*--------------------------------------------Map*/
+div#map {
+  min-height: 360px; /* For rendering problems */
+}
 
 
 
