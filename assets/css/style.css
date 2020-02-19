@@ -316,11 +316,11 @@ p > span {
   z-index: 3;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 700px) {
   .hero {
     height: 100vh;
     min-height: 500px;
-    background-image: url(/assets/images/header-img.jpg);
+    background-image: url(assets/images/header-img.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
