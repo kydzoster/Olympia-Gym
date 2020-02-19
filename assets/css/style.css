@@ -53,7 +53,7 @@ a > h1:hover {
 /****************************************** BMI */
 
 #height,
-#weight, 
+#weight,
 #inches,
 #pounds {
   width: 100px;
@@ -197,30 +197,30 @@ p > span {
   }
   #resultsB,
   #resultsA {
-  border-radius: 10px;
-  padding: 10px 25px;
-  text-align: center;
-  font-size: 100%;
-  min-height: 50px;
-  background-color: #fafafa;
-  border: 2px solid #e84610;
-}
+    border-radius: 10px;
+    padding: 10px 25px;
+    text-align: center;
+    font-size: 100%;
+    min-height: 50px;
+    background-color: #fafafa;
+    border: 2px solid #e84610;
+  }
 }
 
-@media screen and (min-width: 750px) and (max-width: 1240px){
+@media screen and (min-width: 750px) and (max-width: 1240px) {
   .popup {
     width: 50%;
   }
   #resultsB,
   #resultsA {
-  border-radius: 10px;
-  padding: 10px 25px;
-  text-align: center;
-  font-size: 100%;
-  min-height: 50px;
-  background-color: #fafafa;
-  border: 2px solid #e84610;
-}
+    border-radius: 10px;
+    padding: 10px 25px;
+    text-align: center;
+    font-size: 100%;
+    min-height: 50px;
+    background-color: #fafafa;
+    border: 2px solid #e84610;
+  }
 }
 /**/
 /**/

@@ -8,7 +8,6 @@ formA.addEventListener('submit', function(a){
     let resultsA = document.querySelector('#resultsA');
     
     if((inches === '') || (inches < 0) || (isNaN(inches))){
-        //NaN !== NaN
         resultsA.innerHTML = "Please provide a valid inches";
         
     } else if (pounds === '' || pounds < 0 || isNaN(pounds)){
