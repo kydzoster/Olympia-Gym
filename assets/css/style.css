@@ -68,7 +68,8 @@ p > span {
 #resultsB,
 #resultsA {
   border-radius: 10px;
-  padding: 10px 25px;
+  padding: 5px 15px;
+  margin-top: 5px;
   text-align: center;
   font-size: 100%;
   min-height: 50px;
@@ -79,6 +80,7 @@ p > span {
 .bmi-button {
   border-radius: 10px;
   padding: 10px 25px;
+  margin-top: 5px;
   text-align: center;
   font-size: 100%;
   background-color: #ffc107;
@@ -163,7 +165,7 @@ p > span {
   border-radius: 5px;
   width: 30%;
   position: relative;
-  transition: all 5s ease-in-out;
+  transition: all 2s ease-in-out;
 }
 
 .popup .close {
@@ -189,8 +191,34 @@ p > span {
 
 @media screen and (max-width: 700px) {
   .popup {
-    width: 70%;
+    width: 100%;
   }
+  #resultsB,
+  #resultsA {
+  border-radius: 10px;
+  padding: 10px 25px;
+  text-align: center;
+  font-size: 100%;
+  min-height: 50px;
+  background-color: #fafafa;
+  border: 2px solid #e84610;
+}
+}
+
+@media screen and (min-width: 750px) and (max-width: 1240px){
+  .popup {
+    width: 50%;
+  }
+  #resultsB,
+  #resultsA {
+  border-radius: 10px;
+  padding: 10px 25px;
+  text-align: center;
+  font-size: 100%;
+  min-height: 50px;
+  background-color: #fafafa;
+  border: 2px solid #e84610;
+}
 }
 /**/
 /**/
@@ -227,7 +255,7 @@ p > span {
 .tabcontent {
   display: none;
   padding: 6px 12px;
-  border: 1px solid #ccc;
+  border: 1px solid #ffc107;
   border-top: none;
 }
 .tabcontent {
