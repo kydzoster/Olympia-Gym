@@ -411,6 +411,11 @@ section.pricing {
   border: 0;
 }
 
+.img-thumbnail{
+  min-height: 200px;
+  max-width: 200px;
+}
+
 .block-divider--white {
   background-color: azure;
 }

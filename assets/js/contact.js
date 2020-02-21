@@ -14,3 +14,9 @@ function sendMail(contactForm) {
     );
     return false;
 }
+
+function clearForm(contactForm) {
+    contactForm.name.value = ''
+    contactForm.email.value = ''
+    contactForm.message.value = ''
+    }
