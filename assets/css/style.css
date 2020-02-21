@@ -406,7 +406,7 @@ section.pricing {
 /****************************************** Gallery */
 
 .block-divider {
-  width: 96%;
+  width: 95%;
   height: 2px;
   border: 0;
 }
@@ -414,6 +414,13 @@ section.pricing {
 .img-thumbnail{
   min-height: 200px;
   max-width: 200px;
+}
+
+@media screen and (max-width: 500px){
+  .img-thumbnail{
+    min-height: 150px;
+    max-width: 150px;
+  }
 }
 
 .block-divider--white {
