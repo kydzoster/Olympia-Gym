@@ -45,6 +45,8 @@ hhjuktf
 
 - These could both potentially be accomplished by further advancing in my Full-Stack studies.
 
+- Gym members testimony/comments for each staff member or gym in general.
+
 ## TECHNOLOGIES USED
 
 Brief overview of the languages, frameworks, and other tools I've used on this project:
@@ -57,6 +59,7 @@ Brief overview of the languages, frameworks, and other tools I've used on this p
 - [jQuery]
 - [EmailJs API]
 - [Google maps API]
+- [Font Awesome]
 
 ## TESTING
 
