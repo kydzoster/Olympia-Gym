@@ -19,6 +19,10 @@ html {
   scroll-behavior: smooth;
 }
 
+h1, h2, h3 {
+  font-family: "Exo", sans-serif;
+}
+
 section {
   padding-top: 80px;
 }
@@ -366,7 +370,7 @@ section.pricing {
 }
 
 .pricing hr {
-  margin: 1.5rem 0;
+  margin: 1.6rem 0;
 }
 
 .pricing .card-title {
@@ -406,7 +410,7 @@ section.pricing {
 /****************************************** Gallery */
 
 .block-divider {
-  width: 95%;
+  width: 100%;
   height: 2px;
   border: 0;
 }
@@ -477,7 +481,7 @@ section.pricing {
 
 /*--------------------------------------------Map*/
 div#map {
-  min-height: 360px; /* For rendering problems */
+  min-height: 410px; /* For rendering problems */
 }
 /**/
 /**/
