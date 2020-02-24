@@ -35,6 +35,15 @@ hhjuktf
 
 ## FEATURES
 
+#### JavaScript
+
+For this project to pass I had to use JavaScript. There are in total **5** JavaScript files in js folder. 
+
+- **maps.js** its function is to pinpoint Olympia Gym exact location with an label "O".
+- **contact.js** allows a user to contact Olympia Gym, currently all messages will be sent to my personal email. Its configurted to receive a message and who has sent it and how to contact sender through their email.
+- **tabs.js** this is a simple tabs system, to access it user has to click on BMI button and here they will be met with 2 tabs, under each tab there will be content which consists of another JavaScript file for BMI calculation.
+- **bmi.js** and **bmiuk.js** - are calculation functions for calculating BMI, bmi.js uses Metric system and bmiuk.js uses Imperial system.
+
 #### FEATURES TO BE IMPLEMENTED
 
 - Deploy Live website and secure it with protection (either buy a domain or build a server on one of the Olympia Gym computers).
@@ -72,7 +81,6 @@ I copied a [testing matrix](https://github.com/TravelTimN/ci-milestone02-ifd/blo
 - [HTML Validation](https://validator.w3.org/): No errors or warnings found.
 - [CSS Validation](https://jigsaw.w3.org/css-validator/): No errors or warnings found.
 - [JavaScript Validation](http://beautifytools.com/javascript-validator.php): Total error count: (20), however, they are not affecting produced results on website.
-    - There are **5** JavaScript files in the js folder.
 - [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/).
 
 #### COMPATIBILITY
