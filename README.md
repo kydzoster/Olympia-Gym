@@ -72,7 +72,7 @@ I copied a [testing matrix](https://github.com/TravelTimN/ci-milestone02-ifd/blo
 - [HTML Validation](https://validator.w3.org/): No errors or warnings found.
 - [CSS Validation](https://jigsaw.w3.org/css-validator/): No errors or warnings found.
 - [JavaScript Validation](http://beautifytools.com/javascript-validator.php): Total error count: (20), however, they are not affecting produced results on website.
-    - There are **5** functions in the js folder.
+    - There are **5** JavaScript files in the js folder.
 - [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/).
 
 #### COMPATIBILITY
@@ -130,22 +130,18 @@ Nav bar consists of 6 clickable buttons from which:
 
 #### MEDIA
 
-The images used on the buttons are all royalty free vector graphics obtained through a simple Google search. I then used Adobe Photoshop CS6 to create my own markers for the various transportation type.
+- Hero page video is an actual Olumpia Gym marketing video copied from their Facebook account, its replacement for mobile version is an image from one of the images also copied from Olympia Gym Facebook account. 
 
-- [Spinning Globe Loader](http://cdn.lowgif.com/full/7682c56ef78473fe-planet-earth-unitedunderwear-giffy-pinterest-planets.gif)
+- The images used "Meet our Team" is free images from pexels.com. 
 
-The images for the map layers (dark, light, earth) were screenshots from my actual project, which I once again used Photoshop to create the actual images used.
+- Gallery contains images from Olympia Gym accounts on Facebook and Instagram.
 
-I decided not to use Font Awesome just for two tiny icons in the footer, so the [GitHub](https://github.com/logos) and [LinkedIn](https://brand.linkedin.com/) images were obtained through their respective branding pages.
-
-Due to the nature of wanting this project to be entirely open-source, I didn't want to use any CDNs, so downloaded all relevant `.css` and `.js` files for Leaflet and jQuery locally.
+- Facebook and Instagram icons on the left side of the screen uses FontAwesome icons.
 
 #### ACKNOWLEDGEMENTS
 
-A huge thanks to my *[temporary]* mentor [James Timmins](https://github.com/jhtimmins) for his time, suggestions, and constructive feedback for this project!
+- In this project i used a lot of Bootstrap and their free snipets.
 
-Also where credit is due, the concept of getting the animated counter came from Codepen: [jQuery Animated Number Counter From Zero To Value - Javascript Animation by Pouya Saadeghi](https://codepen.io/saadeghi/pen/KdpdoQ). I got the code to work on my own, but with some quick assistance from my mentor, I was able to eliminate nearly 100 lines of repetitive code to accomplish the same concept in only 18 lines.
+- For the Gallery I used https://bootsnipp.com/snippets/ZXyEz by Monoxa ideas.
 
-To remain open-source, I also ensured my project used open-source map-tiles that don't require any API Keys or activation. I'm thankful for [Alex Urquhart's Free Tile Services](http://alexurquhart.github.io/free-tiles/) which allowed me to easily implement 3 base map layers, and a single overlay layer.
-
-Finally, thanks to [Chris Quinn](https://github.com/10xOXR), my accountability partner for all projects, for his feedback and support.
+- I have also used Code Institute google map API and integrated in my project.
