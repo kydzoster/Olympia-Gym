@@ -31,8 +31,8 @@ Despite my limited knowledge in website building they liked my page and they are
 
 #### MOCKUPS
 
-![Demo](https://github.com/kydzoster/Olympia-Gym/blob/master/assets/images/Mockup/New%20Project%201.pdf)
-![Demo](https://github.com/kydzoster/Olympia-Gym/blob/master/assets/images/Mockup/New%20Project%202.pdf)
+![PC](https://github.com/kydzoster/Olympia-Gym/blob/master/assets/images/Mockup/New%20Project%201.pdf)
+![Mobile](https://github.com/kydzoster/Olympia-Gym/blob/master/assets/images/Mockup/New%20Project%202.pdf)
 
 ## FEATURES
 
