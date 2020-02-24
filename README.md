@@ -31,8 +31,8 @@ Despite my limited knowledge in website building they liked my page and they are
 
 #### MOCKUPS
 
-![Demo]()
-![Demo]()
+![Demo](assets/images/Mockup/New Project 1.pdf)
+![Demo](assets/images/Mockup/New Project 2.pdf)
 
 ## FEATURES
 
