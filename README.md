@@ -10,6 +10,37 @@ I chose to build this project as an example website for my local Gym, it serves 
 
 Despite my limited knowledge in website building they liked my page and they are happy to work with me.
 
+---
+
+## Table of Contents
+1. [**UX**](#ux)
+    - [**User Stories**](#user-stories)
+    - [**Framework**](#framework)
+    - [**Color Scheme**](#color-scheme)
+    - [**Icons**](#icons)
+    - [**Mockups**](#Mockups)
+
+2. [**Features**](#features)
+    - [**JavaScript**](#JavaScript)
+    - [**Features to be Implemented**](#Features to be Implemented)
+
+3. [**Technologies Used**](#technologies-used)
+
+4. [**Testing**](#testing)
+	- [**Test Matrix**](#test-matrix)
+    - [**Validators**](#validators)
+	- [**Issues**](#issues)
+    - [**Compatibility**](#compatibility)
+
+5. [**Deployment**](#deployment)
+    - [**Repo**](#repo)
+    - [**GH Page**](#gh-page)
+
+6. [**Credits**](#credits)
+    - [**Content**](#content)
+    - [**Media**](#media)
+    - [**Acknowledgements**](#acknowledgements)
+
 ## UX
 
 #### USER STORIES
@@ -79,12 +110,14 @@ I borrowed [testing matrix](https://github.com/TravelTimN/ci-milestone02-ifd/blo
 
 ![Testing Matrix](https://github.com/TravelTimN/ci-milestone02-ifd/blob/master/testing/testing-ci-milestone02-ifd.png)
 
+#### VALIDATORS
+
 - [HTML Validation](https://validator.w3.org/): No errors or warnings found.
 - [CSS Validation](https://jigsaw.w3.org/css-validator/): No errors or warnings found.
 - [JavaScript Validation](http://beautifytools.com/javascript-validator.php): Total error count: (20), however, they are not affecting produced results on website.
 - [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/).
 
-#### Issues
+#### ISSUES
 
 - In mobile version, I cannot make navbar to close after I have clicked on a link.
 
@@ -105,13 +138,13 @@ This particular project does not require any local deployment.
 
 Deployment and source control was entirely done via GitHub. My repository can be found here:
 
-- **Repo: [https://github.com/kydzoster/Olympia-Gym](https://github.com/kydzoster/Olympia-Gym)**
+#### REPO: [https://github.com/kydzoster/Olympia-Gym](https://github.com/kydzoster/Olympia-Gym)**
 
 I've published the source code built from the *master branch* using **GitHub Pages**.
 
 The live site can be found here:
 
-- **GH Pages: [https://kydzoster.github.io/Olympia-Gym/](https://kydzoster.github.io/Olympia-Gym/)**
+#### GH PAGE: [https://kydzoster.github.io/Olympia-Gym/](https://kydzoster.github.io/Olympia-Gym/)**
 
 There are no difference between the deployed version and the development version.
 
