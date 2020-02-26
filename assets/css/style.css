@@ -77,7 +77,7 @@ p > span {
   text-align: center;
   font-size: 100%;
   min-height: 50px;
-  background-color: #ffc107;
+  background-color: #fafafa;
   border: 2px solid #e84610;
 }
 
@@ -165,7 +165,7 @@ p > span {
   background-color: rgb(236, 160, 18);
   background-position: center;
   height: 30%;
-  min-height: 500px;
+  min-height: 600px;
   background-repeat: no-repeat;
   border-radius: 5px;
   width: 30%;
@@ -444,6 +444,16 @@ section.pricing {
 .block-divider--black {
   background-color: black;
 }
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-color: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+}
 /**/
 /**/
 /**/
@@ -479,6 +489,17 @@ section.pricing {
   text-decoration: none;
 }
 
+::-webkit-input-placeholder { /* Edge */
+  color: red;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: red;
+}
+
+::placeholder {
+  color: red;
+}
 
 /*--------------------------------------------Map*/
 div#map {

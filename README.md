@@ -84,6 +84,12 @@ I borrowed [testing matrix](https://github.com/TravelTimN/ci-milestone02-ifd/blo
 - [JavaScript Validation](http://beautifytools.com/javascript-validator.php): Total error count: (20), however, they are not affecting produced results on website.
 - [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/).
 
+#### Issues
+
+- In mobile version, I cannot make navbar to close after I have clicked on a link.
+
+- In BMI I cannot hide scrollbar and be able to scroll up and down.
+
 #### COMPATIBILITY
 
 To ensure a broad range of users can successfully use this site, I tested it across the 4 major browsers in both desktop and mobile configuration.
