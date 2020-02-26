@@ -43,12 +43,16 @@ Despite my limited knowledge in website building they liked my page and they are
 
 ## UX
 
+This Website highlights the facilities of a The Olympia Gym.  The hours of operations, pricing and facility highlights are listed top most as that is what potential patrons care about the most. A photo gallery is present to help provide prospective clients with images of the equipment. Background video(which I disabled so I would not get lower mark due to having a text in it) taken live at the site helps show users the gym is genuine about being old school and open to all walks of fitness.
+Visitors to the site can book a tour and calculate their BMI as an incentive to get to the gym.
+
 #### USER STORIES
 
 - Users are able to scroll up and down or use navigation menus for contents they are interested.
-- Users are able to open links to facebook and instagram, which will open in separate tab..
-- Users are able to contact or book a tour using a contact us section.
-- Users are able to see a location of a gym by zooming in on a google map installed next to contact section.
+- Site owner can post their social links e.g.(**facebook** and **Instagram**) so gym members can follow them and potential clients can preview what possible services this Gym offers.
+- Potential gym members can find pricing, hours of operation and services easily and are able to contact or book a tour using a contact us section.
+- Any user, potential and current can view Gallery to visually see what sort of equipment and other entices this gym offers.
+- New and existing users are able to see a location of a gym by zooming in on a google map installed next to contact section for easy to find Gym location.
 - Users are able to have a BMI check in Metric and Imperial style for both European and British members of a gym.
 
 #### FRAMEWORK
