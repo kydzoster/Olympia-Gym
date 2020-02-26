@@ -479,11 +479,6 @@ section.pricing {
   text-decoration: none;
 }
 
-#messageIsSent {
-  color: #177cb2;
-  position: absolute;
-  display: none;
-}
 
 /*--------------------------------------------Map*/
 div#map {
