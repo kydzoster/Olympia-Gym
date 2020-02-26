@@ -19,7 +19,9 @@ html {
   scroll-behavior: smooth;
 }
 
-h1, h2, h3{
+h1,
+h2,
+h3 {
   font-family: "Exo", sans-serif;
 }
 
@@ -323,15 +325,15 @@ p > span {
 }
 
 /*@media screen and (max-width: 700px) {*/ /*to activate video delete comments here and in index.html */
-  .hero {
-    height: 100vh;
-    min-height: 500px;
-    background-image: url(https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/p720x720/76765494_1238077243054563_2487489863494926336_o.jpg?_nc_cat=108&_nc_ohc=UktNIVsBNwMAX_bf7v9&_nc_ht=scontent-lht6-1.xx&_nc_tp=6&oh=ef11762935da260121852daaddf978a6&oe=5EBC7E3C);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-  /*section video { 
+.hero {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url(https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/p720x720/76765494_1238077243054563_2487489863494926336_o.jpg?_nc_cat=108&_nc_ohc=UktNIVsBNwMAX_bf7v9&_nc_ht=scontent-lht6-1.xx&_nc_tp=6&oh=ef11762935da260121852daaddf978a6&oe=5EBC7E3C);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/*section video { 
     display: none;
   }
 }*/ /*to activate video delete stars*/
@@ -415,13 +417,13 @@ section.pricing {
   border: 0;
 }
 
-.img-thumbnail{
+.img-thumbnail {
   min-height: 200px;
   max-width: 200px;
 }
 
-@media screen and (max-width: 500px){
-  .img-thumbnail{
+@media screen and (max-width: 500px) {
+  .img-thumbnail {
     min-height: 150px;
     max-width: 150px;
   }
@@ -445,14 +447,15 @@ section.pricing {
   background-color: black;
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon {
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
   height: 100px;
   width: 100px;
   outline: black;
   background-color: black;
   background-size: 100%, 100%;
   border-radius: 50%;
-  border: 1px solid black;
+  border: 1px solid #e84610;
 }
 /**/
 /**/
@@ -489,11 +492,13 @@ section.pricing {
   text-decoration: none;
 }
 
-::-webkit-input-placeholder { /* Edge */
+::-webkit-input-placeholder {
+  /* Edge */
   color: red;
 }
 
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
   color: red;
 }
 
@@ -533,10 +538,6 @@ footer {
   display: block;
   text-align: center;
 }
-
-
-
-
 
 /************** Footer **************/
 footer {
