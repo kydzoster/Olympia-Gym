@@ -322,7 +322,7 @@ p > span {
   z-index: 3;
 }
 
-@media screen and (max-width: 700px) {
+/*@media screen and (max-width: 700px) {*/ /*to activate video delete comments here and in index.html */
   .hero {
     height: 100vh;
     min-height: 500px;
@@ -331,10 +331,10 @@ p > span {
     background-position: center;
     background-repeat: no-repeat;
   }
-  section video {
+  /*section video { 
     display: none;
   }
-}
+}*/ /*to activate video delete stars*/
 
 .join-button {
   border-radius: 10px;

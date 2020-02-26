@@ -153,4 +153,6 @@ Nav bar consists of 6 clickable buttons from which:
 
 - For the Gallery I used https://bootsnipp.com/snippets/ZXyEz by Monoxa ideas.
 
+- https://codepen.io/imprakash/pen/GgNMXO
+
 - I have also used Code Institute google map API and integrated in my project.
