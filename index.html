@@ -362,7 +362,7 @@
 						<div class="col-xs-12 col-sm-12 col-md-7">
 							<div class="col-sm-12">
 								<div class="well well-sm">
-									<form onsubmit="return sendMail(this);">
+									<form id="form" onsubmit="return sendMail(this);">
 										<div class="row mt-4 ml-2">
 											<div class="col-sm-8">
 												<div class="form-group">
@@ -381,9 +381,10 @@
 												</div>
 											</div>
 											<div class="col-sm-6">
+												<span id="messageIsSent">Your message has been sent, Thank You.</span>
 											</div>
 											<div class="col-sm-6">
-												<button type="submit" class="btn enter pull-right mb-3">Send Message</button>
+												<input id="submit" class="btn enter pull-right mb-3" type="submit" value="Submit">
 											</div>
 										</div>
 									</form>
@@ -411,6 +412,11 @@
 	<script src="assets/js/bmi.js"></script>
 	<script src="assets/js/bmiuk.js"></script>
 	<script src="assets/js/tabs.js"></script>
+	<script>
+		const form = document.querySelector('form');
+		const submit = document.querySelector('#messageIsSent');
+		form.addEventListener('submit', () => {submit.style.display = 'block';});
+	</script>
 </body>
 
 </html>

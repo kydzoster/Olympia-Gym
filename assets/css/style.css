@@ -479,6 +479,12 @@ section.pricing {
   text-decoration: none;
 }
 
+#messageIsSent {
+  color: #177cb2;
+  position: absolute;
+  display: none;
+}
+
 /*--------------------------------------------Map*/
 div#map {
   min-height: 410px; /* For rendering problems */
@@ -510,4 +516,27 @@ footer {
   font-size: 20px;
   display: block;
   text-align: center;
+}
+
+
+
+
+
+/************** Footer **************/
+footer {
+  background-color: #1b1b1b;
+}
+footer p {
+  padding: 20px;
+  text-align: center;
+  color: #eee;
+  font-size: 1.1em;
+}
+footer a {
+  color: #4678b2;
+  text-decoration: none;
+  transition: 0.4s;
+}
+footer a:hover {
+  color: #888;
 }
