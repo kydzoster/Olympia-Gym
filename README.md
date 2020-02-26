@@ -127,6 +127,8 @@ I borrowed [testing matrix](https://github.com/TravelTimN/ci-milestone02-ifd/blo
 
 - In BMI I cannot hide scrollbar and be able to scroll up and down.
 
+- Cannot close popup when clicked outside of it, forced to use X button or menu buttons.
+
 #### COMPATIBILITY
 
 To ensure a broad range of users can successfully use this site, I checked website across the 4 major browsers in both desktop and mobile configuration.
