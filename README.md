@@ -15,22 +15,22 @@ Despite my limited knowledge in website building they liked my page and they are
 #### USER STORIES
 
 - Users are able to scroll up and down or use navigation menus for contents they are interested.
-- Users are able to open links to facebook and instagram, which will open in seperate tab..
+- Users are able to open links to facebook and instagram, which will open in separate tab..
 - Users are able to contact or book a tour using a contact us section.
 - Users are able to see a location of a gym by zooming in on a google map installed next to contact section.
 - Users are able to have a BMI check in Metric and Imperial style for both European and British members of a gym.
 
 #### FRAMEWORK
 
-- **Bootstrap**: I prefer to use Bootstrap as it is easy and have constistency. It is supported by vanilla CSS and javaScript.
+- **Bootstrap**: I prefer to use Bootstrap as it is easy and have consistency. It is supported by vanilla CSS and javaScript.
 
 #### COLOR SCHEME
 
-- The main colour for website is Yellow and Black as they are Olympia Gym colours. background colour is linear-gradient, to give a website better aestetics colour wise (subjective view).
+- The main colour for website is Yellow and Black as they are Olympia Gym colours. background colour is linear-gradient, to give a website better aesthetics colour wise (subjective view).
 
 
 #### MOCKUPS
-
+These are not broken images, they are pdf files, you can click on them and you will be directed to: assets > images > Mockup.
 ![PC](https://github.com/kydzoster/Olympia-Gym/blob/master/assets/images/Mockup/New%20Project%201.pdf)
 ![Mobile](https://github.com/kydzoster/Olympia-Gym/blob/master/assets/images/Mockup/New%20Project%202.pdf)
 
@@ -41,7 +41,7 @@ Despite my limited knowledge in website building they liked my page and they are
 For this project to pass I had to use JavaScript. There are in total **5** JavaScript files in js folder. 
 
 - **maps.js** its function is to pinpoint Olympia Gym exact location with an label "O".
-- **contact.js** allows a user to contact Olympia Gym, currently all messages will be sent to my personal email. Its configurted to receive a message and who has sent it and how to contact sender through their email.
+- **contact.js** allows a user to contact Olympia Gym, currently all messages will be sent to my personal email. Its configured to receive a message and who has sent it and how to contact sender through their email.
 - **tabs.js** this is a simple tabs system, to access it user has to click on BMI button and here they will be met with 2 tabs, under each tab there will be content which consists of another JavaScript file for BMI calculation.
 - **bmi.js** and **bmiuk.js** - are calculation functions for calculating BMI, bmi.js uses Metric system and bmiuk.js uses Imperial system.
 
@@ -75,7 +75,7 @@ Brief overview of the languages, frameworks, and other tools I've used on this p
 
 #### TEST MATRIX
 
-I copied a [testing matrix](https://github.com/TravelTimN/ci-milestone02-ifd/blob/master/testing/testing-ci-milestone02-ifd.xlsx) borrowed from https://github.com/TravelTimN
+I borrowed [testing matrix](https://github.com/TravelTimN/ci-milestone02-ifd/blob/master/testing/testing-ci-milestone02-ifd.xlsx) from https://github.com/TravelTimN
 
 ![Testing Matrix](https://github.com/TravelTimN/ci-milestone02-ifd/blob/master/testing/testing-ci-milestone02-ifd.png)
 
@@ -126,7 +126,7 @@ Nav bar consists of 6 clickable buttons from which:
 
 - Services smooth scroll to Service section
 
-- About Us opens 3 clickable undersections:
+- About Us opens 3 clickable under-sections:
 	- About Us
 	- Meet our Team
 	- Gallery
@@ -139,7 +139,7 @@ Nav bar consists of 6 clickable buttons from which:
 
 #### MEDIA
 
-- Hero page video is an actual Olumpia Gym marketing video copied from their Facebook account, its replacement for mobile version is an image from one of the images also copied from Olympia Gym Facebook account. 
+- Hero page video is an actual Olympia Gym marketing video copied from their Facebook account, its replacement for mobile version is an image from one of the images also copied from Olympia Gym Facebook account. 
 
 - The images used "Meet our Team" is free images from pexels.com. 
 
@@ -149,7 +149,7 @@ Nav bar consists of 6 clickable buttons from which:
 
 #### ACKNOWLEDGEMENTS
 
-- In this project i used a lot of Bootstrap and their free snipets.
+- In this project i used a lot of Bootstrap and their free snippets.
 
 - For the Gallery I used https://bootsnipp.com/snippets/ZXyEz by Monoxa ideas.
 
