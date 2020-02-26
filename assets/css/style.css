@@ -85,12 +85,23 @@ p > span {
 
 .bmi-button {
   border-radius: 10px;
-  padding: 10px 25px;
+  padding: 5px 15px;
   margin-top: 5px;
   text-align: center;
   font-size: 100%;
   background-color: #ffc107;
   border: 2px solid #e84610;
+  color: black;
+}
+
+.reset-button {
+  border-radius: 10px;
+  padding: 5px 15px;
+  margin-top: 5px;
+  text-align: center;
+  font-size: 100%;
+  background-color: #fafafa;
+  border: 2px solid black;
   color: black;
 }
 
@@ -192,7 +203,7 @@ p > span {
 
 .popup .content {
   max-height: 50%;
-  overflow: hidden;
+  overflow: auto;
   color: black;
 }
 

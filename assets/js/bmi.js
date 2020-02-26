@@ -19,8 +19,3 @@ formB.addEventListener('submit', function(b) {
 		resultsB.innerHTML = `<span>${bmi}</span>`;
 	}
 });
-
-function lightUp(){
-    var result = document.getElementById("bmi").value;
-    document.getElementById("under").innerHTML = result;
-}

@@ -23,9 +23,9 @@ function sendMail(contactForm) {
     })
     .then(
         function(response) {
-contactForm.name.value = '';
-contactForm.email.value = '';
-contactForm.message.value = '';
+        contactForm.name.value = '';
+        contactForm.email.value = '';
+        contactForm.message.value = '';
 alert('Your message has been submitted successfully!');
         },
         function(error) {

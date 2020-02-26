@@ -129,7 +129,7 @@ I borrowed [testing matrix](https://github.com/TravelTimN/ci-milestone02-ifd/blo
 
 #### COMPATIBILITY
 
-To ensure a broad range of users can successfully use this site, I tested it across the 4 major browsers in both desktop and mobile configuration.
+To ensure a broad range of users can successfully use this site, I checked website across the 4 major browsers in both desktop and mobile configuration.
 
 - Chrome
 - Edge
