@@ -155,7 +155,7 @@ p > span {
 /**/
 /****************************************** BMI popup Content */
 /*----- from https://codepen.io/imprakash/pen/GgNMXO */
-
+/*
 .overlay {
   position: fixed;
   top: 0;
@@ -246,11 +246,14 @@ p > span {
 /**/
 /****************************************** Tabs Content */
 
+.bmi-size{
+  width: 1000px;
+}
+
 .tab {
   overflow: hidden;
   border: 1px solid #ccc;
   background-color: #f1f1f1;
-  z-index: 1;
 }
 
 .tab button {
@@ -267,30 +270,13 @@ p > span {
   background-color: #ddd;
 }
 
-/* Create an active/current tablink class */
-.tab button.active {
-  background-color: #ccc;
-}
-
 /* Style the tab content */
 .tabcontent {
   display: none;
-  padding: 6px 12px;
+  padding: 2px 5px;
   border: 1px solid #ffc107;
   border-top: none;
-}
-.tabcontent {
-  animation: fadeEffect 1s; /* Fading effect takes 1 second */
-}
-
-/* Go from zero to full opacity */
-@keyframes fadeEffect {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+  width: 100%;
 }
 /**/
 /**/
@@ -314,7 +300,6 @@ p > span {
   width: 100%;
   background-color: black;
   opacity: 0.5;
-  z-index: 3;
 }
 
 .hero video {
@@ -325,7 +310,7 @@ p > span {
   min-height: 100%;
   width: auto;
   height: auto;
-  z-index: 2;
+  z-index: 1;
   -ms-transform: translateX(-50%) translateY(-50%);
   -moz-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
@@ -334,7 +319,6 @@ p > span {
 
 .hero-content {
   position: relative;
-  z-index: 3;
 }
 
 /*@media screen and (max-width: 700px) {*/ /*to activate video delete comments here and in index.html */

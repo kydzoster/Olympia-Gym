@@ -45,7 +45,7 @@
 						<li class="nav-item">
 							<a class="link" href="#contact">Contact Us</a>
 						</li>
-						<li class="nav-item"><a class="link" href="#popup">BMI</a></li>
+                        <li class="nav-item"><a href="#ex1" class="link" rel="modal:open">BMI</a></li>
 					</ul>
 				</div>
 			</div>
@@ -57,114 +57,147 @@
 		<a href="https://www.instagram.com/olympiagymmargate/" class="instagram" target="_blank"
 			rel="noopener noreferrer" aria-label="Instagram"><i class="fa fa-instagram"></i></a>
 	</div>
-	<div id="popup" class="overlay">
-		<div class="popup">
-			<h2 class="text-uppercase about-icon-heading text-center">
+
+
+
+
+		<div id="ex1" class="modal">
+			<h2 class="text-uppercase about-icon-heading text-center mt-1 pt-5">
 				BMI Calculator
 			</h2>
-			<a class="close" href="#">&times;</a>
-			<!-- Tab links -->
 			<div class="tab">
-				<button class="tablinks" onclick="openBmi(event, 'Metric')">
-					Metric
+				<button class="tablinks"><a href="#Metric" rel="modal:open">Metric</a>
 				</button>
-				<button class="tablinks" onclick="openBmi(event, 'Imperial')">
-					Imperial
+				<button class="tablinks"><a href="#Imperial" rel="modal:open">Imperial</a>
 				</button>
-			</div>
-			<!-- Tab content -->
-			<div id="Metric" class="tabcontent bg-dark">
-				<!-- BMI metric system -->
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-12 mb-4 text-center align-items-center bg-dark">
-							<div class="card h-100">
-								<div class="container">
-									<form id="bmi">
-										<p>
-											<label>Height in "cm":</label><span><input type="number" id="height"
-													required="required" placeholder="cm" step="0.01" min="100"
-													max="220" /></span>
-										</p>
-										<p>
-											<label>Weight in "kg":</label><span><input type="number" id="weight"
-													required="required" placeholder="kg" step="0.01" min="30"
-													max="250" /></span>
-										</p>
-										<div class="row">
-											<div class="col-sm-6">
-												<input class="reset-button" type="reset" />
-											</div>
-											<div class="col-sm-6">
-												<button class="bmi-button" type="submit">
-													Calculate
-												</button>
-											</div>
-										</div>
-										<hr class="block-divider block-divider--black ml-2" />
-										<div class="card-body">
-											<h4 class="card-title">BMI Weight Guide</h4>
-											<p class="card-text">Under Weight = Less than 18.6</p>
-											<p class="card-text">Normal Range = 18.6 and 24.9</p>
-											<p class="card-text">Overweight = Greater than 24.9</p>
-											<div class="col-lg-12">
-												<div id="resultsB"></div>
-											</div>
-										</div>
-									</form>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div id="Imperial" class="tabcontent bg-dark">
-				<!-- BMI imperial system -->
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-12 mb-4 text-center align-items-center bg-dark">
-							<div class="card h-100">
-								<div class="container">
-									<form id="bmiuk">
-										<p>
-											<label>Height in "in":</label><span><input type="number" id="inches"
-													required="required" placeholder="in" step="0.01" min="39"
-													max="90" /></span>
-										</p>
-										<p>
-											<label>Weight in "lb":</label><span><input type="number" id="pounds"
-													required="required" placeholder="lbs" step="0.01" min="60"
-													max="550" /></span>
-										</p>
-										<div class="row">
-											<div class="col-sm-6">
-												<input class="reset-button" type="reset" />
-											</div>
-											<div class="col-sm-6">
-												<button class="bmi-button" type="submit">
-													Calculate
-												</button>
-											</div>
-										</div>
-										<hr class="block-divider block-divider--black ml-2" />
-										<div class="card-body">
-											<h4 class="card-title">BMI Weight Guide</h4>
-											<p class="card-text">Under Weight = Less than 18.6</p>
-											<p class="card-text">Normal Range = 18.6 and 24.9</p>
-											<p class="card-text">Overweight = Greater than 24.9</p>
-											<div class="col-lg-12">
-												<div id="resultsA"></div>
-											</div>
-										</div>
-									</form>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
 			</div>
 		</div>
-	</div>
+	
+	
+			<!-- Modal -->
+			<div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<div class="modal-body">
+	
+	
+	
+							<!-- Tab content -->
+				<div id="Metric" class="tabcontent bg-dark modal">
+					<!-- BMI metric system -->
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-12 text-center align-items-center bg-dark no-gutters">
+								<div class="card h-100 pb-5">
+									<div class="container">
+										<form id="bmi">
+											<h2 class="text-uppercase about-icon-heading text-center mt-1 pt-5">
+											</h2>
+											<div class="tab">
+												<button class="tablinks"><a href="#Metric" rel="modal:open">Metric</a>
+												</button>
+												<button class="tablinks"><a href="#Imperial" rel="modal:open">Imperial</a>
+												</button>
+											</div>
+											<p>
+												<label>Height in "cm":</label><span><input type="number" id="height"
+														required="required" placeholder="cm" step="0.01" min="100"
+														max="220" /></span>
+											</p>
+											<p>
+												<label>Weight in "kg":</label><span><input type="number" id="weight"
+														required="required" placeholder="kg" step="0.01" min="30"
+														max="250" /></span>
+											</p>
+											<div class="row">
+												<div class="col-sm-6">
+													<input class="reset-button" type="reset" />
+												</div>
+												<div class="col-sm-6">
+													<button class="bmi-button" type="submit">
+														Calculate
+													</button>
+												</div>
+											</div>
+											<hr class="block-divider block-divider--black ml-2" />
+											<div class="card-body">
+												<h4 class="card-title">BMI Weight Guide</h4>
+												<p class="card-text">Under Weight = Less than 18.6</p>
+												<p class="card-text">Normal Range = 18.6 and 24.9</p>
+												<p class="card-text">Overweight = Greater than 24.9</p>
+												<div class="col-lg-12">
+													<div id="resultsB"></div>
+												</div>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="Imperial" class="tabcontent bg-dark">
+					<!-- BMI imperial system -->
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-12 text-center align-items-center bg-dark">
+								<div class="card h-100 pb-5">
+									<div class="container">
+										<form id="bmiuk">
+											<h2 class="text-uppercase about-icon-heading text-center mt-1 pt-5">
+											</h2>
+											<div class="tab">
+												<button class="tablinks"><a href="#Metric" rel="modal:open">Metric</a>
+												</button>
+												<button class="tablinks"><a href="#Imperial" rel="modal:open">Imperial</a>
+												</button>
+											</div>
+											<p>
+												<label>Height in "in":</label><span><input type="number" id="inches"
+														required="required" placeholder="in" step="0.01" min="39"
+														max="90" /></span>
+											</p>
+											<p>
+												<label>Weight in "lb":</label><span><input type="number" id="pounds"
+														required="required" placeholder="lbs" step="0.01" min="60"
+														max="550" /></span>
+											</p>
+											<div class="row">
+												<div class="col-sm-6">
+													<input class="reset-button" type="reset" />
+												</div>
+												<div class="col-sm-6">
+													<button class="bmi-button" type="submit">
+														Calculate
+													</button>
+												</div>
+											</div>
+											<hr class="block-divider block-divider--black ml-2" />
+											<div class="card-body">
+												<h4 class="card-title">BMI Weight Guide</h4>
+												<p class="card-text">Under Weight = Less than 18.6</p>
+												<p class="card-text">Normal Range = 18.6 and 24.9</p>
+												<p class="card-text">Overweight = Greater than 24.9</p>
+												<div class="col-lg-12">
+													<div id="resultsA"></div>
+												</div>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+
+
 	<!-- Bootstrap  video-->
 	<section>
 		<div class="hero">
@@ -546,7 +579,11 @@
 		</div>
 	</footer>
 
-	<!-- Scripts -->
+	    <!-- Scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<!-- jQuery Modal -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 	<script src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
 	<script>
