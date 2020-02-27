@@ -246,9 +246,7 @@ p > span {
 /**/
 /****************************************** Tabs Content */
 
-.bmi-size{
-  width: 1000px;
-}
+
 
 .tab {
   overflow: hidden;
@@ -277,6 +275,19 @@ p > span {
   border: 1px solid #ffc107;
   border-top: none;
   width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+  .tabcontent{
+    overflow: scroll;
+  }
+  .bmi-container{
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 /**/
 /**/
