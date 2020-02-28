@@ -125,10 +125,6 @@ I borrowed [testing matrix](https://github.com/TravelTimN/ci-milestone02-ifd/blo
 
 - In mobile version, I cannot make navbar to close after I have clicked on a link.
 
-- In BMI I cannot hide scrollbar and be able to scroll up and down.
-
-- Cannot close popup when clicked outside of it, forced to use X button or menu buttons.
-
 #### COMPATIBILITY
 
 To ensure a broad range of users can successfully use this site, I checked website across the 4 major browsers in both desktop and mobile configuration.
@@ -178,13 +174,13 @@ Nav bar consists of 6 clickable buttons from which:
 
 - Contact Us will slide down to contact section with google map and contact form
 
-- BMI which will open a popup windows for calculating your BMI with 2 tabs:
-	- Metric system
-	- Imperial system
+- BMI which will open a modal windows for calculating your BMI with 2 tabs:
+	- Metric system (all numbers are set from 1 to 999)
+	- Imperial system (all numbers are set from 1 to 999)
 
 #### MEDIA
 
-- Hero page video is an actual Olympia Gym marketing video copied from their Facebook account, its replacement for mobile version is an image from one of the images also copied from Olympia Gym Facebook account. 
+- Hero page video is an actual Olympia Gym marketing video copied from their Facebook account, its replacement for mobile version is an image from one of the images also copied from Olympia Gym Facebook account. (For the assessment Video has been disabled/commented out)
 
 - The images used "Meet our Team" is free images from pexels.com. 
 

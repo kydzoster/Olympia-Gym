@@ -11,10 +11,10 @@ formB.addEventListener('submit', function(b) {
 	var bmiOrange = document.querySelector('#bmiOrange');
 
 	if ((height === '') || (height < 0) || (isNaN(height))) {
-		resultsB.innerHTML = "Please provide a valid height";
+		resultsB.innerHTML = "";
 
 	} else if (weight === '' || weight < 0 || isNaN(weight)) {
-		resultsB.innerHTML = "Please provide a valid weight";
+		resultsB.innerHTML = "";
 	} else {
 		//calculate BMI
 		var bmi = (weight / ((height * height) / 10000)).toFixed(2);

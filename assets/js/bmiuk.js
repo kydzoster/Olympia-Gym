@@ -11,10 +11,10 @@ formA.addEventListener('submit', function(a) {
 	var bmiukOrange = document.querySelector('#bmiukOrange');
 
 	if ((inches === '') || (inches < 0) || (isNaN(inches))) {
-		resultsA.innerHTML = "Please provide a valid inches";
+		resultsA.innerHTML = "";
 
 	} else if (pounds === '' || pounds < 0 || isNaN(pounds)) {
-		resultsA.innerHTML = "Please provide a valid pounds";
+		resultsA.innerHTML = "";
 	} else {
 		//calculate BMI
 		var bmiuk = (703 * (pounds / (inches * inches))).toFixed(2);
