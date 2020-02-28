@@ -21,12 +21,11 @@ formB.addEventListener('submit', function(b) {
 		//display the results
 		resultsB.innerHTML = `<span>${bmi}</span>`;
 		if (bmi < 18.6) {
-    resultsB.style.color = 'red', bmiRed.style.color = 'red';
+	resultsB.style.color = 'red', bmiRed.style.color = 'red';
   } else if (bmi <= 24.9) {
     resultsB.style.color = 'green', bmiGreen.style.color = 'green';
   } else {
     resultsB.style.color = 'orange', bmiOrange.style.color = 'orange';
   }
-  return false;
-	}
+  	}
 });
