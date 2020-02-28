@@ -22,7 +22,7 @@ Despite my limited knowledge in website building they liked my page and they are
 
 2. [**Features**](#features)
     - [**JavaScript**](#JavaScript)
-    - [**Features to be Implemented**](#Features to be Implemented)
+    - [**Features to be Implemented**](#Features-to-be-Implemented)
 
 3. [**Technologies Used**](#technologies-used)
 
