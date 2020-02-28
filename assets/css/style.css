@@ -77,11 +77,11 @@ p > span {
   padding: 5px 15px;
   margin-top: 5px;
   text-align: center;
-  font-size: 50px;
+  font-size: 30px;
   min-height: 50px;
   background-color: #fafafa;
-  border: 2px solid #e84610;
-  color: #d6660a;
+  border: 2px solid black;
+  color: Black;
   font-weight: 900;
 }
 
@@ -153,100 +153,14 @@ p > span {
 /**/
 /**/
 /**/
-/****************************************** BMI popup Content */
-/*----- from https://codepen.io/imprakash/pen/GgNMXO */
-/*
-.overlay {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.7);
-  transition: opacity 500ms;
-  visibility: hidden;
-  opacity: 0;
-  z-index: 6;
-}
-
-.overlay:target {
-  visibility: visible;
-  opacity: 1;
-}
-
-.popup {
-  margin: 70px auto;
-  padding: 20px;
-  background-color: rgb(236, 160, 18);
-  background-position: center;
-  height: 30%;
-  min-height: 500px;
-  background-repeat: no-repeat;
-  border-radius: 5px;
-  width: 30%;
-  position: relative;
-  transition: all 2s ease-in-out;
-  overflow: auto;
-}
-
-.popup .close {
-  position: absolute;
-  top: 20px;
-  right: 30px;
-  font-size: 30px;
-  font-weight: bold;
-  text-decoration: none;
-  color: rgb(165, 11, 11);
-}
-
-.popup .close:hover {
-  color: rgb(240, 6, 6);
-}
-
-.popup .content {
-  max-height: 50%;
-  overflow: auto;
-  color: black;
-}
-
-@media screen and (max-width: 700px) {
-  .popup {
-    width: 100%;
-    max-height: 500px;
-  }
-  #resultsB,
-  #resultsA {
-    border-radius: 10px;
-    padding: 10px 25px;
-    text-align: center;
-    font-size: 100%;
-    min-height: 50px;
-    background-color: #fafafa;
-    border: 2px solid #e84610;
-  }
-}
-
-@media screen and (min-width: 750px) and (max-width: 1240px) {
-  .popup {
-    width: 100%;
-  }
-  #resultsB,
-  #resultsA {
-    border-radius: 10px;
-    padding: 10px 25px;
-    text-align: center;
-    font-size: 100%;
-    min-height: 50px;
-    background-color: #fafafa;
-    border: 2px solid #e84610;
-  }
-}
-/**/
-/**/
-/**/
 /****************************************** Tabs Content */
 
-
+.tablinks > a{
+  color: black;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: large;
+}
 
 .tab {
   overflow: hidden;
@@ -289,6 +203,17 @@ p > span {
     margin-right: 0;
   }
 }
+
+/*--------------------------------------------Placeholder */
+    /* WebKit browsers */
+    input:focus::-webkit-input-placeholder { color:transparent; }
+
+    /* Mozilla Firefox 19+ */
+input:focus::-moz-placeholder { color:transparent; }
+
+    /* Internet Explorer 10+ */
+input:focus:-ms-input-placeholder { color:transparent; }
+
 /**/
 /**/
 /**/
@@ -500,19 +425,6 @@ section.pricing {
   text-decoration: none;
 }
 
-::-webkit-input-placeholder {
-  /* Edge */
-  color: red;
-}
-
-:-ms-input-placeholder {
-  /* Internet Explorer 10-11 */
-  color: red;
-}
-
-::placeholder {
-  color: red;
-}
 
 /*--------------------------------------------Map*/
 div#map {

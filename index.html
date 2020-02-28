@@ -45,158 +45,152 @@
 						<li class="nav-item">
 							<a class="link" href="#contact">Contact Us</a>
 						</li>
-                        <li class="nav-item"><a href="#ex1" class="link" rel="modal:open">BMI</a></li>
+						<li class="nav-item"><a href="#ex1" class="link" rel="modal:open">BMI</a></li>
 					</ul>
 				</div>
 			</div>
 		</nav>
 	</header>
+
+	<!-- Tab -->
 	<div class="icon-bar">
 		<a href="https://www.facebook.com/OlympiaGymMargate" class="facebook" target="_blank" rel="noopener noreferrer"
 			aria-label="Facebook"><i class="fa fa-facebook"></i></a>
 		<a href="https://www.instagram.com/olympiagymmargate/" class="instagram" target="_blank"
 			rel="noopener noreferrer" aria-label="Instagram"><i class="fa fa-instagram"></i></a>
 	</div>
+	<div id="ex1" class="modal">
+		<h2 class="text-uppercase about-icon-heading text-center mt-1 pt-5">
+			BMI Calculator
+		</h2>
+		<div class="tab">
+			<button class="tablinks"><a href="#Metric" rel="modal:open">Metric</a>
+			</button>
+			<button class="tablinks"><a href="#Imperial" rel="modal:open">Imperial</a>
+			</button>
+		</div>
+	</div>
 
-
-
-
-		<div id="ex1" class="modal">
-			<h2 class="text-uppercase about-icon-heading text-center mt-1 pt-5">
-				BMI Calculator
-			</h2>
-			<div class="tab">
-				<button class="tablinks"><a href="#Metric" rel="modal:open">Metric</a>
-				</button>
-				<button class="tablinks"><a href="#Imperial" rel="modal:open">Imperial</a>
-				</button>
+	<!-- Modal -->
+	<div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-body">
+					<!-- Tab content -->
+					<div id="Metric" class="tabcontent bg-dark modal">
+						<!-- BMI metric system -->
+						<div class="container bmi-container">
+							<div class="row">
+								<div class="col-sm-12 text-center align-items-center bg-dark no-gutters">
+									<div class="card h-100 pb-2">
+										<div class="container">
+											<form id="bmi">
+												<h2 class="text-uppercase about-icon-heading text-center mt-1 pt-5">
+												</h2>
+												<div class="tab">
+													<button class="tablinks"><a href="#Metric"
+															rel="modal:open">Metric</a>
+													</button>
+													<button class="tablinks"><a href="#Imperial"
+															rel="modal:open">Imperial</a>
+													</button>
+												</div>
+												<p>
+													<label>Height in "cm":</label><span><input type="number" id="height"
+															required="required" placeholder="e.g. 170" step="0.01"
+															min="1" max="999" /></span>
+												</p>
+												<p>
+													<label>Weight in "kg":</label><span><input type="number" id="weight"
+															required="required" placeholder="e.g. 65" step="0.01"
+															min="1" max="999" /></span>
+												</p>
+												<div class="row">
+													<div class="col-sm-6">
+														<input class="reset-button" type="reset" />
+													</div>
+													<div class="col-sm-6">
+														<button class="bmi-button" onclick="ResultsB()" type="submit">
+															Calculate
+														</button>
+													</div>
+												</div>
+												<hr class="block-divider block-divider--black ml-2" />
+												<div class="card-body">
+													<h4 class="card-title">BMI Weight Guide</h4>
+													<p class="card-text">Under Weight = Less than 18.6</p>
+													<p class="card-text">Normal Range = 18.6 and 24.9</p>
+													<p class="card-text">Overweight = Greater than 24.9</p>
+													<div class="col-lg-12">
+														<div id="resultsB"></div>
+													</div>
+												</div>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="Imperial" class="tabcontent bg-dark">
+						<!-- BMI imperial system -->
+						<div class="container bmi-container">
+							<div class="row">
+								<div class="col-sm-12 text-center align-items-center bg-dark">
+									<div class="card h-100 pb-2">
+										<div class="container">
+											<form id="bmiuk">
+												<h2 class="text-uppercase about-icon-heading text-center mt-1 pt-5">
+												</h2>
+												<div class="tab">
+													<button class="tablinks"><a href="#Metric"
+															rel="modal:open">Metric</a>
+													</button>
+													<button class="tablinks"><a href="#Imperial"
+															rel="modal:open">Imperial</a>
+													</button>
+												</div>
+												<p>
+													<label>Height in "in":</label><span><input type="number" id="inches"
+															required="required" placeholder="e.g. 66" step="0.01"
+															min="1" max="999" /></span>
+												</p>
+												<p>
+													<label>Weight in "lb":</label><span><input type="number" id="pounds"
+															required="required" placeholder="e.g. 143" step="0.01"
+															min="1" max="999" /></span>
+												</p>
+												<div class="row">
+													<div class="col-sm-6">
+														<input class="reset-button" type="reset" />
+													</div>
+													<div class="col-sm-6">
+														<button class="bmi-button" onclick="ResultsA()" type="submit">
+															Calculate
+														</button>
+													</div>
+												</div>
+												<hr class="block-divider block-divider--black ml-2" />
+												<div class="card-body">
+													<h4 class="card-title">BMI Weight Guide</h4>
+													<p class="card-text">Under Weight = Less than 18.6</p>
+													<p class="card-text">Normal Range = 18.6 and 24.9</p>
+													<p class="card-text">Overweight = Greater than 24.9</p>
+													<div class="col-lg-12">
+														<div id="resultsA"></div>
+													</div>
+												</div>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
-	
-	
-			<!-- Modal -->
-			<div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-hidden="true">
-				<div class="modal-dialog modal-dialog-centered" role="document">
-					<div class="modal-content">
-						<div class="modal-body">
-	
-	
-	
-							<!-- Tab content -->
-				<div id="Metric" class="tabcontent bg-dark modal">
-					<!-- BMI metric system -->
-					<div class="container bmi-container">
-						<div class="row">
-							<div class="col-sm-12 text-center align-items-center bg-dark no-gutters">
-								<div class="card h-100 pb-2">
-									<div class="container">
-										<form id="bmi">
-											<h2 class="text-uppercase about-icon-heading text-center mt-1 pt-5">
-											</h2>
-											<div class="tab">
-												<button class="tablinks"><a href="#Metric" rel="modal:open">Metric</a>
-												</button>
-												<button class="tablinks"><a href="#Imperial" rel="modal:open">Imperial</a>
-												</button>
-											</div>
-											<p>
-												<label>Height in "cm":</label><span><input type="number" id="height"
-														required="required" placeholder="cm" step="0.01" min="100"
-														max="220" /></span>
-											</p>
-											<p>
-												<label>Weight in "kg":</label><span><input type="number" id="weight"
-														required="required" placeholder="kg" step="0.01" min="30"
-														max="250" /></span>
-											</p>
-											<div class="row">
-												<div class="col-sm-6">
-													<input class="reset-button" type="reset" />
-												</div>
-												<div class="col-sm-6">
-													<button class="bmi-button" type="submit">
-														Calculate
-													</button>
-												</div>
-											</div>
-											<hr class="block-divider block-divider--black ml-2" />
-											<div class="card-body">
-												<h4 class="card-title">BMI Weight Guide</h4>
-												<p class="card-text">Under Weight = Less than 18.6</p>
-												<p class="card-text">Normal Range = 18.6 and 24.9</p>
-												<p class="card-text">Overweight = Greater than 24.9</p>
-												<div class="col-lg-12">
-													<div id="resultsB"></div>
-												</div>
-											</div>
-										</form>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div id="Imperial" class="tabcontent bg-dark">
-					<!-- BMI imperial system -->
-					<div class="container bmi-container">
-						<div class="row">
-							<div class="col-sm-12 text-center align-items-center bg-dark">
-								<div class="card h-100 pb-2">
-									<div class="container">
-										<form id="bmiuk">
-											<h2 class="text-uppercase about-icon-heading text-center mt-1 pt-5">
-											</h2>
-											<div class="tab">
-												<button class="tablinks"><a href="#Metric" rel="modal:open">Metric</a>
-												</button>
-												<button class="tablinks"><a href="#Imperial" rel="modal:open">Imperial</a>
-												</button>
-											</div>
-											<p>
-												<label>Height in "in":</label><span><input type="number" id="inches"
-														required="required" placeholder="in" step="0.01" min="39"
-														max="90" /></span>
-											</p>
-											<p>
-												<label>Weight in "lb":</label><span><input type="number" id="pounds"
-														required="required" placeholder="lbs" step="0.01" min="60"
-														max="550" /></span>
-											</p>
-											<div class="row">
-												<div class="col-sm-6">
-													<input class="reset-button" type="reset" />
-												</div>
-												<div class="col-sm-6">
-													<button class="bmi-button" type="submit">
-														Calculate
-													</button>
-												</div>
-											</div>
-											<hr class="block-divider block-divider--black ml-2" />
-											<div class="card-body">
-												<h4 class="card-title">BMI Weight Guide</h4>
-												<p class="card-text">Under Weight = Less than 18.6</p>
-												<p class="card-text">Normal Range = 18.6 and 24.9</p>
-												<p class="card-text">Overweight = Greater than 24.9</p>
-												<div class="col-lg-12">
-													<div id="resultsA"></div>
-												</div>
-											</div>
-										</form>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-
-
-
+	</div>
 
 	<!-- Bootstrap  video-->
 	<section>
@@ -205,7 +199,6 @@
 			<!--<video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
 				<source src="assets/images/Olympia-Gym2.mp4" type="video/mp4"> </video>-->
 			<!--This video was presented to Olympia Gym owner as an example how video is being rendered on the site, for I cannot use this video for my Milestone project due to text appearing on the video-->
-
 			<div class="container hero-content h-100">
 				<div class="d-flex h-100 text-center align-items-center">
 					<div class="w-100 text-white">
@@ -303,8 +296,8 @@
 										Direct Debit</strong>
 								</li>
 							</ul>
-								<hr/>
-								<ul class="fa-ul text-uppercase">
+							<hr />
+							<ul class="fa-ul text-uppercase">
 								<li>
 									<span class="fa-li"><i class="fa fa-check"></i></span><strong>£20.00 - 1 month
 										cash</strong>
@@ -356,7 +349,7 @@
 				<div class="col-xl-3 col-md-6 mb-4">
 					<div class="card border-0 shadow">
 						<img src="https://images.pexels.com/photos/416809/pexels-photo-416809.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
-							class="card-img-top" alt="..." />
+							class="card-img-top" alt="Gym Staff 1" />
 						<div class="card-body text-center">
 							<h5 class="card-title mb-0">Team Member</h5>
 							<div class="card-text text-black-50">Personal Trainer</div>
@@ -367,7 +360,7 @@
 				<div class="col-xl-3 col-md-6 mb-4">
 					<div class="card border-0 shadow">
 						<img src="https://images.pexels.com/photos/3225889/pexels-photo-3225889.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
-							class="card-img-top" alt="..." />
+							class="card-img-top" alt="Gym Staff 2" />
 						<div class="card-body text-center">
 							<h5 class="card-title mb-0">Team Member</h5>
 							<div class="card-text text-black-50">Personal Trainer</div>
@@ -378,7 +371,7 @@
 				<div class="col-xl-3 col-md-6 mb-4">
 					<div class="card border-0 shadow">
 						<img src="https://images.pexels.com/photos/1446948/pexels-photo-1446948.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
-							class="card-img-top" alt="..." />
+							class="card-img-top" alt="Gym Staff 3" />
 						<div class="card-body text-center">
 							<h5 class="card-title mb-0">Team Member</h5>
 							<div class="card-text text-black-50">Personal Trainer</div>
@@ -389,7 +382,7 @@
 				<div class="col-xl-3 col-md-6">
 					<div class="card border-0 shadow">
 						<img src="https://images.pexels.com/photos/2048434/pexels-photo-2048434.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
-							class="card-img-top" alt="..." />
+							class="card-img-top" alt="Gym Staff 4" />
 						<div class="card-body text-center">
 							<h5 class="card-title mb-0">Team Member</h5>
 							<div class="card-text text-black-50">Personal Trainer</div>
@@ -459,29 +452,29 @@
 							</ol>
 							<div class="carousel-inner">
 								<div class="carousel-item active">
-									<img src="assets/images/image1.jpg" class="w-100" alt="" />
+									<img src="assets/images/image1.jpg" class="w-100" alt="Image1" />
 								</div>
 								<div class="carousel-item">
-									<img src="assets/images/image2.jpg" class="w-100" alt="" />
+									<img src="assets/images/image2.jpg" class="w-100" alt="image2" />
 								</div>
 								<div class="carousel-item">
-									<img src="assets/images/image3.jpg" class="w-100" alt="" />
+									<img src="assets/images/image3.jpg" class="w-100" alt="image3" />
 								</div>
 								<div class="carousel-item">
-									<img src="assets/images/image4.jpg" class="w-100" alt="" />
+									<img src="assets/images/image4.jpg" class="w-100" alt="image4" />
 								</div>
 								<div class="carousel-item">
-									<img src="assets/images/image5.jpg" class="w-100" alt="" />
+									<img src="assets/images/image5.jpg" class="w-100" alt="image5" />
 								</div>
 								<div class="carousel-item">
-									<img src="assets/images/image6.jpg" class="w-100" alt="" />
+									<img src="assets/images/image6.jpg" class="w-100" alt="image6" />
 								</div>
 								<div class="carousel-item">
-									<img src="assets/images/supplements.jpg" class="w-100" alt="" />
+									<img src="assets/images/supplements.jpg" class="w-100" alt="supplements" />
 								</div>
 
 								<div class="carousel-item">
-									<img src="assets/images/image8.jpg" class="w-100" alt="" />
+									<img src="assets/images/image8.jpg" class="w-100" alt="image8" />
 								</div>
 							</div>
 							<a class="carousel-control-prev" href="#popout" role="button" data-slide="prev"><span
@@ -543,8 +536,7 @@
 												<div class="form-group font-weight-bolder">
 													<label for="message">Message</label>
 													<textarea name="message" id="message" class="form-control" rows="9"
-														cols="25" required="required"
-														placeholder="Insert Text Here!"></textarea>
+														cols="25" placeholder="Insert Text Here!" required></textarea>
 												</div>
 											</div>
 											<div class="col-sm-6"></div>
@@ -579,11 +571,11 @@
 		</div>
 	</footer>
 
-	    <!-- Scripts -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
-<!-- jQuery Modal -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+	<!-- Scripts -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+	<!-- jQuery Modal -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 	<script src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
 	<script>
@@ -601,6 +593,7 @@
 	<script src="assets/js/bmi.js"></script>
 	<script src="assets/js/bmiuk.js"></script>
 	<script src="assets/js/tabs.js"></script>
+	<script src="assets/js/submit.js"></script>
 </body>
 
 </html>
