@@ -204,6 +204,10 @@ p > span {
   }
 }
 
+.modal{
+  height: 600px;
+}
+
 /*--------------------------------------------Placeholder */
     /* WebKit browsers */
     input:focus::-webkit-input-placeholder { color:transparent; }
