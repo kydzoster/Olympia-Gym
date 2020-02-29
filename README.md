@@ -1,4 +1,4 @@
-![Demo](https://github.com/kydzoster/Olympia-Gym/blob/master/assets/images/3prbl6.gif)
+![Demo](https://github.com/kydzoster/Olympia-Gym/blob/master/assets/images/Mockup/responsive.jpg)
 
 #### **[Live Site](https://kydzoster.github.io/Olympia-Gym/)**
 
