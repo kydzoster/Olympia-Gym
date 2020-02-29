@@ -125,6 +125,7 @@ I borrowed [testing matrix](https://github.com/TravelTimN/ci-milestone02-ifd/blo
 
 - In the mobile version, I cannot make navbar to close after I have clicked on a link.
 - iPhone 5 incompatibility with Gallery and modal alignments.
+- Using as per advisement prettier beautifier, however, this beautifier uses a lot of spacing and some may think I have overdone it myself, this is not a case.
 
 #### COMPATIBILITY
 
