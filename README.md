@@ -112,7 +112,7 @@ A brief overview of the languages, frameworks, and other tools I've used on this
 
 I borrowed [testing matrix](https://github.com/TravelTimN/ci-milestone02-ifd/blob/master/testing/testing-ci-milestone02-ifd.xlsx) from https://github.com/TravelTimN
 
-![Testing Matrix](https://github.com/TravelTimN/ci-milestone02-ifd/blob/master/testing/testing-ci-milestone02-ifd.png)
+![Testing Matrix](https://github.com/kydzoster/Olympia-Gym/blob/master/assets/images/Testing.jpg)
 
 #### VALIDATORS
 
